@@ -1,0 +1,155 @@
+@media screen and (max-width:1000px){
+    
+    h1{
+        font-size: 2.5rem;
+    }
+    p{
+        font-size: 1.2rem;
+    }
+    .container{
+        display: flex;
+        justify-content: center; /* centers horizontally */
+        align-items: center;    /* centers vertically */
+        height: 100vh;
+    
+    }
+
+    img{
+        width: 80%;
+        height: 200px;
+        margin-top: 15px;
+    }
+
+
+    label{
+        font-size: 2.5rem;
+        
+    }
+    input[type=text]{
+        font-size: 1rem;
+        margin: 5px;
+    }
+
+    .primary-button{
+        font-size: 1rem;
+    }
+}
+
+
+
+
+
+@media screen and (max-width:750px){
+
+     
+    h1{
+        font-size: 2rem;
+    }
+    p{
+        font-size: 0.9rem;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; /* Optional: Center horizontally as well */
+        height: 100vh; /* Full viewport height for demonstration */
+        border: 1px solid #ccc; /* For visual reference */
+    
+    }
+
+    img{
+        width: 50%;
+        height: 100px;
+        margin-top: 15px;
+    }
+
+
+    label{
+        font-size: 1.5rem;
+        
+    }
+    input[type=text]{
+        font-size: 0.8rem;
+        margin: 5px;
+    }
+
+    .primary-button{
+        font-size: 0.8rem;
+    }
+
+    .game-area{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+}
+
+
+
+
+@media screen and (max-width:400px){
+
+     
+    h1{
+        font-size: 2rem;
+    }
+    p{
+        font-size: 1.2rem;
+    }
+
+    .container{
+        /* display: flex;
+        flex-direction: column; /* Stack vertically */
+        /* justify-content: center; /* Center vertically within the content */
+       /* align-items: center; /* Center horizontally within the content */
+       /* height: 100%; /* Full height of the container */
+       /* margin-top: 10%; */ 
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; /* Optional: Center horizontally as well */
+        height: 100vh; /* Full viewport height for demonstration */
+        border: 1px solid #ccc; /* For visual reference */
+
+        padding: 20px 10px;
+    }
+
+    img{
+        width: 70%;
+        height: 100px;
+        margin-block: 15px;
+    }
+
+
+    label{
+        margin-top: 10px;
+        font-size: 1.5rem;
+        
+    }
+    input[type=text]{
+        font-size: 0.8rem;
+        /* margin: 5px; */
+    }
+
+    .primary-button{
+        font-size: 0.8rem;
+    }
+
+    .game-area{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+        width: 100%;
+        padding: 5px;
+        text-align: center;
+    }
+}

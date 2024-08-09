@@ -1,0 +1,29 @@
+@media screen  and (max-width: 400px) {
+    
+body{
+    margin-top: 10px;
+    
+}
+
+.container{
+    padding: 15px 5px;
+    width: 90%;
+    height: 90%;
+}
+
+h1{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+button{
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+input{
+    margin-bottom: 10px;
+}
+
+}

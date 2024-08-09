@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaQuery.css">
+    <link rel="shortcut icon" href="/images/favicon-32x32.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/7482577450.js" crossorigin="anonymous"> </script>
+
+</head>
+<body>
+    
+ <div class="container">
+
+    <div class="text-area">
+        <h1>Number Guessing Game</h1>
+        <p>Try & guess a random number between 1 to 30</p>
+        <p>You have 5 attempts to guess the right number</p> 
+        <img src="./images/num.png" alt="">
+        
+    </div>
+    <div class="game-area">
+        <form action="">
+            <label for="">Guess a number</label><br>
+            <input type="text"  id="inputField"><br>
+
+            <input type="submit" value="Submit Guess" id="submit" class="primary-button">
+        </form>
+
+
+        <div class="startOver below" >
+            <p class="lowHigh"></p>
+            <p>Previous Guess   <i class="fa-solid fa-angles-down fa-sm"></i> <br> <span class="PrevGuess"></span></p>
+            <p>Guesses Remaining: <span class="RemainingAttempt">5</span></p>
+        </div>
+    </div>
+    
+</div>
+
+
+<script src="main.js"></script>
+</body>
+
+</html>

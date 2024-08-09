@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(to right,#6237f0,#d63899);
+    color: white;
+    width: 100%;
+}
+
+h1{
+    font-size: 3.5rem;
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+p{
+    font-size: 1.8rem;
+}
+
+.container{
+    display: flex;
+  justify-content: center; /* centers horizontally */
+  align-items: center;    /* centers vertically */
+  height: 100vh;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; */
+}
+
+.text-area{
+/* height: 80vh; */
+
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+gap: 0px;
+}
+
+img{
+    width: 90%;
+    height: 300px;
+    margin-top: 15px;
+}
+
+
+.game-area{
+width: 40%;
+padding: 10px;
+text-align: center;
+}
+
+
+label{
+    font-size: 3.5rem;
+    
+    
+}
+input[type=text]{
+    font-size: 1.8rem;
+    margin: 5px;
+}
+
+.primary-button{
+    /* background: linear-gradient(to right,#6237f0,#d63899); */
+    font-size: 1.8rem;
+    background-color: rgb(255, 115, 0);
+    color: white;
+    border-radius: 6px;
+    padding: 10px;   
+    border: none;
+    box-shadow: 2px 2px 2px black;
+    transition: .3s ease;
+    margin-top: 10px;
+}
+.primary-button:hover{
+    box-shadow: 0px 0px 5px white;
+}
+
+
+.startOver{
+    margin-block: 20px;
+}
+
+
+.below{
+    background-color:#9854ff;
+    color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
